@@ -73,7 +73,7 @@ const studentData = [
         phone: "+975 17691256",
         parentPhone: "+975 17875472",
         floor: 2,
-        image: "image/tshering nidup.jpg",
+        image: "tshering nidup.jpg",
         roomNumber: "214",
         year: 4,
         semester: "1st Semester",
@@ -878,4 +878,5 @@ if (typeof module !== 'undefined' && module.exports) {
 } else {
     // For browser environments
     window.studentData = studentData;
+
 }
